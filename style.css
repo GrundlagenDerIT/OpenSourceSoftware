@@ -1,0 +1,91 @@
+body {
+	background: #F0F0F0;
+	font-size: 14pt;
+}
+nav {
+position: fixed;
+border-style: inset;
+border-width: 5px;
+border-color: #eaeaea;
+background: #eaeaea; 
+width: 20%;
+font-family: Futura, Arial, sans-serif; 
+font-size: 14pt;
+font-style: italic;
+}
+
+nav ul {
+margin: 5px;
+padding: 0
+}
+
+nav ul li {
+list-style-type: none;
+margin-left: 2px
+}
+  
+nav ul li a:link {
+text-decoration: none;
+padding: 3px;
+color: navy;
+}
+
+nav ul li a:visited {
+text-decoration: none;
+padding: 3px;
+color: navy;
+}   
+
+nav ul li a:hover {
+text-decoration: none;
+padding: 3px;
+color: gold;
+background: black;
+font-size: 120%
+}
+
+nav ul li a:active {
+text-decoration: none;
+padding: 3px;
+background: black;
+color: silver
+}
+
+article {
+position: absolute;
+top: 0%;
+left: 25%
+}
+   
+h2 {
+	color: #4030A0; 
+	font-family: Times New Roman, serif
+}
+   
+p {
+	font-family: Arial, sans-serif
+}
+
+img {float: left}
+   
+footer {
+	font-family: Futura, Arial, sans-serif; 
+	font-size: 12pt; 
+	font-style: italic; 
+	color: #808080;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #eaeaea;
+	background: #eaeaea;
+	margin: 5px;
+	padding: 5px
+}
+   
+section {
+padding-bottom: 10px
+}   
+   
+section h2 {
+	font-size: 16pt; 
+	color: #905040
+}
